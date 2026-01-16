@@ -1,0 +1,40 @@
+# Core Dependencies
+numpy>=1.23.0pandas>=1.1.4
+Pillow>=10.0.1requests>=2.27.1
+
+# Video Processing
+opencv-python>=4.6.0moviepy>=1.0.3
+
+# AI/ML Models
+torch>=1.8.0torchvision>=0.9.0
+ultralytics>=8.3.116  # YOLOv8openai-whisper>=20240930  # Audio transcription
+transformers>=4.51.3  # Text processingdeepface>=0.0.93  # Facial analysis
+
+# Web Interface
+streamlit>=1.1.2tqdm>=4.64.0
+
+# File Handling
+gdown>=3.10.1fsspec<2023.10.0
+# Optional: GPU Support
+
+torch-cuda  # comment if not using NVIDIA GPU
+
+# Development Tools
+python-dateutil>=2.8.2
+pytz>=2020.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
